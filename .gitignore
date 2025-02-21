@@ -1,0 +1,7 @@
+.env
+cert.pem
+key.pem
+*venv/**
+DOCs/**
+DOCs_db/**
+
