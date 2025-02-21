@@ -4,4 +4,5 @@ key.pem
 *venv/**
 DOCs/**
 DOCs_db/**
+*.log
 
