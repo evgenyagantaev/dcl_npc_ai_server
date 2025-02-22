@@ -43,6 +43,7 @@ def run_gpt_query(system, user_query, search_db, conversation_context):
     prompt_text += f"User: {user_query}\n"
     prompt_text += (
         f"Current time: {datetime.now().strftime('%d.%m.%Y %H:%M')}. "
+        "Always answer in exactly the same language as the user's question."
         "You are an AI powered NPC assistant in a particular Decentraland world. "
         "Your name is Curator. "
         "Master of this world is a person named Zhenya. "
